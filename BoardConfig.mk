@@ -197,6 +197,9 @@ USE_DEVICE_SPECIFIC_DATA_IPA_CFG_MGR := true
 # Lineage Hardware
 JAVA_SOURCE_OVERLAYS := org.lineageos.hardware|$(DEVICE_PATH)/lineagehw|**/*.java
 
+# HWUI
+HWUI_COMPILE_FOR_PERF := true
+
 # Media
 TARGET_USES_MEDIA_EXTENSIONS := true
 

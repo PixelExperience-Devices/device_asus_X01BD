@@ -561,4 +561,18 @@
     <!-- Zenmotions -->
     <string name="config_alternativeDeviceKeyHandlerLib" translatable="false">/system/priv-app/Zenmotions/Zenmotions.apk</string>
     <string name="config_alternativeDeviceKeyHandlerClass" translatable="false">com.asus.zenmotions.KeyHandler</string>
+
+    <!-- Display mode remapping table.
+         If the mode names returned by the backend do not match
+         the predefined and translated strings in the Settings
+         app, they can be remapped here. The format is
+         "oldname:newname", one per entry. -->
+    <string-array name="config_displayModeMappings" translatable="false">
+        <item>A_Standard:standard</item>
+        <item>B_Warm mode:reading</item>
+        <item>D_Cold mode:dynamic</item>
+    </string-array>
+
+    <!-- Should we filter any display modes which are unampped? -->
+    <bool name="config_filterDisplayModes">true</bool>
 </resources>

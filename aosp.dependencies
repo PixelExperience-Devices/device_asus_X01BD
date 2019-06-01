@@ -1,10 +1,12 @@
 [
   {
-    "repository":  "android_kernel_asus_X01BD",
+    "repository":  "kernel_asus_X01BD",
     "target_path": "kernel/asus/sdm660"
+    "branch": "pie-caf"
   },
   {
-    "repository":  "android_vendor_asus_X01BD",
+    "repository":  "vendor_asus_X01BD",
     "target_path": "vendor/asus/X01BD"
+    "branch": "pie-caf"
   }
 ]

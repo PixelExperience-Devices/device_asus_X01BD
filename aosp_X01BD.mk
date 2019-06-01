@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2018 The Havoc-OS Project
+# Copyright (C) 2018 The AOSP  Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -19,8 +19,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
 
-# Inherit some common Havoc-OS stuff
-$(call inherit-product, vendor/havoc/config/common.mk)
+# Inherit some common PE stuff
+$(call inherit-product, vendor/aosp/config/common.mk)
+TARGET_GAPPS_ARCH := arm64
+TARGET_BOOT_ANIMATION_RES := 1080
 
 # Inherit from X01BD device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
@@ -29,7 +31,7 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 export export HAVOC_BUILD_TYPE=Official
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := havoc_X01BD
+PRODUCT_NAME := aosp_X01BD
 PRODUCT_DEVICE := X01BD
 PRODUCT_BRAND := asus
 PRODUCT_MODEL := Zenfone Max Pro M2

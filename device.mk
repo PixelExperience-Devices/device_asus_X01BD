@@ -505,10 +505,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/wifi/hostapd/hostapd.deny:system/etc/hostapd/hostapd.deny \
     $(LOCAL_PATH)/configs/wifi/hostapd/hostapd_default.conf:system/etc/hostapd/hostapd_default.conf
 
-# ZenfoneParts
-PRODUCT_PACKAGES += \
-    ZenfoneParts
-
 # ZenMotions
 PRODUCT_PACKAGES += \
     Zenmotions

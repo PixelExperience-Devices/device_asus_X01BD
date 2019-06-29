@@ -309,7 +309,7 @@ public class KeyHandler implements AlternativeDeviceKeyHandler {
 
         void observe() {
             mContext.getContentResolver().registerContentObserver(Settings.System.getUriFor(
-                    Settings.System.DEVICE_PROXI_CHECK_ENABLED),
+                    Settings.System.CUSTOM_DEVICE_PROXI_CHECK_ENABLED),
                     false, this);
             update();
         }
@@ -321,7 +321,7 @@ public class KeyHandler implements AlternativeDeviceKeyHandler {
 
         public void update() {
             mUseProxiCheck = Settings.System.getIntForUser(
-                    mContext.getContentResolver(), Settings.System.DEVICE_PROXI_CHECK_ENABLED, 1,
+                    mContext.getContentResolver(), Settings.System.CUSTOM_DEVICE_PROXI_CHECK_ENABLED, 1,
                     UserHandle.USER_CURRENT) == 1;
         }
 }

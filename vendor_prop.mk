@@ -44,6 +44,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.audio_hal.in_period_size=144 \
     vendor.audio_hal.period_multiplier=3 \
     vendor.audio.adm.buffering.ms=3 \
+    hpx_send_params=1 \
+    persist.audio.dirac.speaker=true
 
  # Bluetooth
 PRODUCT_PROPERTY_OVERRIDES += \

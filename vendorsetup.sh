@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2018 The Superior-OS Project
+# Copyright (C) 2018 The AOSP Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -21,7 +21,7 @@
 # function: add_lunch_combo generic-eng
 
 for var in eng user userdebug; do
-  add_lunch_combo superior_X01BD-user
-  add_lunch_combo superior_X01BD-userdebug
+  add_lunch_combo aosp_X01BD-user
+  add_lunch_combo aosp_X01BD-userdebug
 done
 

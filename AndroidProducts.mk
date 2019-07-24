@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2018 The Havoc-OS Project
+# Copyright (C) 2018 The AOSP Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/superior_X01BD.mk
+    $(LOCAL_DIR)/aosp_X01BD.mk

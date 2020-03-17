@@ -184,8 +184,6 @@ VENDOR_SECURITY_PATCH := 2019-12-05
 include device/qcom/sepolicy-legacy-um/sepolicy.mk
 BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
-SELINUX_IGNORE_NEVERALLOWS := true
-
 # WiFi
 BOARD_HAS_QCOM_WLAN := true
 BOARD_WLAN_DEVICE := qcwcn

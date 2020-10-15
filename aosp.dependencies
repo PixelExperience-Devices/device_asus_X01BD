@@ -5,10 +5,10 @@
     "branch": "ten"
   },
   {
-    "repository":  "vendor_asus_X01BD",
+    "repository":  "Gaurav241/vendor_asus_X01BD",
     "target_path": "vendor/asus/X01BD",
     "branch": "ten",
-    "remote": "pixel-devices-bitbucket"
+    "remote": "github"
   },
   {
     "repository": "packages_apps_PixelLiveWallpaper",

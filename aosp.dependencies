@@ -7,7 +7,7 @@
   {
     "repository": "kernel_asus_X01BD",
     "target_path": "kernel/asus/sdm660",
-    "branch": "eleven"
+    "branch": "eleven-4.4"
   },
   {
     "repository": "vendor_asus_X01BD",

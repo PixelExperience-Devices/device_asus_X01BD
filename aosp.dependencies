@@ -2,13 +2,13 @@
   {
     "repository"  : "device_asus_sdm660-common",
     "target_path" : "device/asus/sdm660-common",
-    "branch"      : "twelve",
+    "branch"      : "thirteen",
     "remote"      : "pixel-devices"
   },
   {
     "repository"  : "vendor_asus_X01BD",
     "target_path" : "vendor/asus/X01BD",
-    "branch"      : "twelve",
+    "branch"      : "thirteen",
     "remote"      : "pixel-devices-blobs"
   }
 ]

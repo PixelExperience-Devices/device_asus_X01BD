@@ -16,7 +16,13 @@
 ** limitations under the License.
 */
 -->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources>
+    <dimen name="config_rounded_mask_size">156px</dimen>
+    <dimen name="config_rounded_mask_size_top">@dimen/config_rounded_mask_size</dimen>
+    <dimen name="config_rounded_mask_size_bottom">@dimen/config_rounded_mask_size</dimen>
+
+    <!-- the padding on the top of the statusbar (usually 0) -->
+    <dimen name="status_bar_padding_top">1px</dimen>
 
     <!-- the padding on the start of the statusbar -->
     <dimen name="status_bar_padding_start">9dp</dimen>

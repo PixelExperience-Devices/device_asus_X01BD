@@ -1,14 +1,14 @@
 [
   {
-    "repository"  : "device_asus_sdm660-common",
+    "repository"  : "Asus-Max-Pro-M2/device_asus_sdm660-common",
     "target_path" : "device/asus/sdm660-common",
-    "branch"      : "thirteen",
-    "remote"      : "pixel-devices"
+    "branch"      : "thirteen-wipp",
+    "remote"      : "github"
   },
   {
-    "repository"  : "vendor_asus_X01BD",
+    "repository"  : "Asus-Max-Pro-M2/vendor_asus_X01BD",
     "target_path" : "vendor/asus/X01BD",
-    "branch"      : "thirteen",
-    "remote"      : "pixel-devices-blobs"
+    "branch"      : "thirteen-wipp",
+    "remote"      : "github"
   }
 ]

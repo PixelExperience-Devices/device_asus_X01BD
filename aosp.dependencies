@@ -8,7 +8,7 @@
   {
     "repository"  : "Asus-Max-Pro-M2/vendor_asus_X01BD",
     "target_path" : "vendor/asus/X01BD",
-    "branch"      : "thirteen-wipp",
+    "branch"      : "thirteen",
     "remote"      : "github"
   }
 ]
